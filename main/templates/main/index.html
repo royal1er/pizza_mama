@@ -2,12 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pizza Mama</title>
     <link rel="stylesheet" href="{% static 'main/style.css' %}">
 </head>
 <body>
 <div class="center">
-    <img src="{% static 'main/images/main_logo.png' %}">
+    <img class="main-center" src="{% static 'main/images/main_logo.png' %}">
     <a href="{%url 'menu:index'%}">Voir le menu</a>
 </div>
 </body>

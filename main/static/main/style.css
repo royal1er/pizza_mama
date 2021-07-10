@@ -31,4 +31,19 @@ text-align:center;
 color:red;
 margin-top:30px;
 font-size:18px;
+text-decoration:none;
+}
+
+/* RESPONSIVE DESIGN : MOBILE*/
+@media screen and (max-width: 767px) {
+
+
+img.main-center{
+width: 48vh;
+}
+
+a{
+font-size:5vh;
+}
+
 }
